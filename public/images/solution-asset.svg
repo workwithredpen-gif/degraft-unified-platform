@@ -1,0 +1,44 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Engineer servicing telecom infrastructure</title>
+  <desc id="desc">Vector illustration of a maintenance engineer working on a telecom tower with predictive analytics overlay.</desc>
+  <defs>
+    <linearGradient id="twilight" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#051933" />
+      <stop offset="100%" stop-color="#0c2f4f" />
+    </linearGradient>
+    <linearGradient id="highlight" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#0ea5e9" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#twilight)" />
+  <g fill="#102a46">
+    <rect x="360" y="120" width="40" height="320" rx="20" />
+    <rect x="180" y="300" width="40" height="140" rx="20" />
+    <rect x="540" y="260" width="40" height="180" rx="20" />
+  </g>
+  <g stroke="#38bdf8" stroke-width="6" stroke-linecap="round">
+    <line x1="200" y1="320" x2="380" y2="180" />
+    <line x1="580" y1="280" x2="380" y2="180" />
+    <line x1="380" y1="180" x2="380" y2="80" />
+  </g>
+  <g fill="#1f3d5c" stroke="#38bdf8" stroke-width="4">
+    <circle cx="380" cy="80" r="36" />
+    <circle cx="200" cy="320" r="28" />
+    <circle cx="580" cy="280" r="28" />
+  </g>
+  <g fill="#38bdf8" opacity="0.2">
+    <circle cx="200" cy="320" r="80" />
+    <circle cx="580" cy="280" r="80" />
+  </g>
+  <path d="M280 320 h80 c30 0 60 40 60 90 v80 h-140 z" fill="#f1f5f9" opacity="0.9" />
+  <circle cx="300" cy="360" r="36" fill="#38bdf8" />
+  <rect x="280" y="460" width="60" height="12" rx="6" fill="#0f172a" opacity="0.6" />
+  <path d="M320 360 l30 40 l30-20" stroke="#0f172a" stroke-width="8" fill="none" />
+  <rect x="420" y="420" width="140" height="90" rx="24" fill="#132842" />
+  <g stroke="#22d3ee" stroke-width="4" opacity="0.8" stroke-linecap="round">
+    <path d="M440 460 h100" />
+    <path d="M440 440 h60" />
+    <path d="M440 480 h60" />
+  </g>
+</svg>

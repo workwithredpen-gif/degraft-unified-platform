@@ -1,0 +1,19 @@
+<svg width="320" height="320" viewBox="0 0 320 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Portrait illustration of Ama Osei</title>
+  <desc id="desc">Vector portrait of a product leader smiling confidently, illustrated with teal accents.</desc>
+  <defs>
+    <linearGradient id="backgroundAma" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f2135" />
+      <stop offset="100%" stop-color="#0f4c5c" />
+    </linearGradient>
+  </defs>
+  <rect width="320" height="320" rx="160" fill="url(#backgroundAma)" />
+  <circle cx="160" cy="130" r="72" fill="#1d2836" />
+  <circle cx="160" cy="130" r="60" fill="#2c3442" />
+  <path d="M120 240 h80 c0-40-30-80-40-80 h-20 c-10 0-40 40-20 80z" fill="#0f172a" />
+  <path d="M136 160 h48 c22 0 40 18 40 40 v28 h-128 v-28 c0-22 18-40 40-40z" fill="#fde7d9" />
+  <circle cx="160" cy="150" r="34" fill="#fde7d9" />
+  <path d="M124 142 c12-18 36-32 36-32 s24 14 36 32 v8 c-10 12-26 18-36 18 s-26-6-36-18z" fill="#2f3c59" />
+  <path d="M136 182 h48 c-4 18-18 30-24 30 s-20-12-24-30z" fill="#facc15" opacity="0.5" />
+  <rect x="120" y="222" width="80" height="18" rx="9" fill="#65f0c6" opacity="0.6" />
+</svg>

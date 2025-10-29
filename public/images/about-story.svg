@@ -1,0 +1,19 @@
+<svg width="600" height="400" viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Early operations illustration</title>
+  <desc id="desc">Vector depiction of the De-Graft team working with paper files and whiteboards in the early days.</desc>
+  <defs>
+    <linearGradient id="storyBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#102033" />
+      <stop offset="100%" stop-color="#16344d" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" rx="32" fill="url(#storyBg)" />
+  <rect x="120" y="120" width="360" height="200" rx="28" fill="#0d1e2e" />
+  <rect x="160" y="150" width="140" height="120" rx="20" fill="#facc15" opacity="0.9" />
+  <rect x="320" y="150" width="120" height="120" rx="20" fill="#38bdf8" opacity="0.7" />
+  <rect x="140" y="290" width="320" height="20" rx="10" fill="#0f172a" opacity="0.4" />
+  <circle cx="220" cy="210" r="32" fill="#f7d6c3" />
+  <path d="M200 240 h40 c16 0 30 12 30 30 v20 h-100 v-20 c0-18 14-30 30-30z" fill="#0f172a" />
+  <rect x="360" y="180" width="60" height="40" rx="12" fill="#0f172a" opacity="0.5" />
+  <rect x="360" y="240" width="80" height="40" rx="12" fill="#0f172a" opacity="0.5" />
+</svg>

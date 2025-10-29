@@ -1,0 +1,20 @@
+<svg width="1200" height="500" viewBox="0 0 1200 500" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Business meeting illustration</title>
+  <desc id="desc">Vector illustration of a friendly meeting scene with tea and documents for the talk to an expert call to action.</desc>
+  <defs>
+    <linearGradient id="ctaBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#091d30" />
+      <stop offset="100%" stop-color="#123a58" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="500" fill="url(#ctaBg)" />
+  <rect x="160" y="200" width="880" height="200" rx="40" fill="#0f243a" />
+  <rect x="220" y="240" width="760" height="120" rx="30" fill="#102f4b" />
+  <circle cx="360" cy="300" r="40" fill="#38bdf8" />
+  <circle cx="840" cy="300" r="40" fill="#facc15" />
+  <rect x="420" y="280" width="360" height="40" rx="20" fill="#38bdf8" opacity="0.6" />
+  <rect x="440" y="340" width="180" height="20" rx="10" fill="#38bdf8" opacity="0.4" />
+  <rect x="640" y="340" width="180" height="20" rx="10" fill="#facc15" opacity="0.4" />
+  <circle cx="360" cy="240" r="18" fill="#facc15" />
+  <circle cx="840" cy="240" r="18" fill="#38bdf8" />
+</svg>

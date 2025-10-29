@@ -1,0 +1,47 @@
+<svg width="1400" height="600" viewBox="0 0 1400 600" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Founding team collaborating in a London workspace</title>
+  <desc id="desc">Stylised illustration of diverse professionals collaborating around a table with the London skyline visible.</desc>
+  <defs>
+    <linearGradient id="workspace" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b2137" />
+      <stop offset="100%" stop-color="#123e5f" />
+    </linearGradient>
+  </defs>
+  <rect width="1400" height="600" fill="url(#workspace)" />
+  <g opacity="0.6">
+    <path d="M0 420 h1400 v180 H0z" fill="#0a1a2b" />
+    <rect x="180" y="160" width="220" height="180" rx="24" fill="#0f2740" />
+    <rect x="440" y="120" width="220" height="220" rx="24" fill="#0f2740" />
+    <rect x="700" y="140" width="220" height="200" rx="24" fill="#0f2740" />
+    <rect x="960" y="100" width="220" height="240" rx="24" fill="#0f2740" />
+  </g>
+  <g>
+    <rect x="260" y="320" width="880" height="180" rx="40" fill="#102e4b" />
+    <rect x="360" y="360" width="680" height="110" rx="30" fill="#0f1f32" />
+  </g>
+  <g fill="#38bdf8">
+    <circle cx="420" cy="300" r="70" />
+    <circle cx="580" cy="280" r="70" />
+    <circle cx="760" cy="310" r="70" />
+    <circle cx="940" cy="290" r="70" />
+  </g>
+  <g fill="#0ea5e9">
+    <rect x="380" y="250" width="80" height="80" rx="28" />
+    <rect x="540" y="230" width="80" height="90" rx="30" />
+    <rect x="720" y="260" width="80" height="90" rx="30" />
+    <rect x="900" y="240" width="80" height="90" rx="30" />
+  </g>
+  <g fill="#facc15">
+    <circle cx="420" cy="250" r="12" />
+    <circle cx="580" cy="230" r="12" />
+    <circle cx="760" cy="260" r="12" />
+    <circle cx="940" cy="240" r="12" />
+  </g>
+  <g fill="#1b4c6b" opacity="0.5">
+    <rect x="320" y="360" width="60" height="120" rx="20" />
+    <rect x="520" y="350" width="60" height="130" rx="20" />
+    <rect x="700" y="370" width="60" height="110" rx="20" />
+    <rect x="880" y="350" width="60" height="130" rx="20" />
+  </g>
+  <rect x="660" y="460" width="80" height="24" rx="12" fill="#0f172a" opacity="0.5" />
+</svg>
