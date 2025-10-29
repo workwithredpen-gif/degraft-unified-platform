@@ -12,6 +12,8 @@ const industries = [
     results: "52% reduction in audit preparation time, 100% compliance adherence, and fraud losses cut by 78%.",
     modules: "Property Management, Asset Management",
     color: "brand",
+    imageSrc: "/images/industry-banks.svg",
+    imageAlt: "Illustration of British bank infrastructure",
   },
   {
     icon: Radio,
@@ -21,6 +23,8 @@ const industries = [
     results: "99.8% network uptime, 35% lower maintenance costs, and 60% faster fault resolution.",
     modules: "Asset Management, Property Management",
     color: "accent-blue",
+    imageSrc: "/images/industry-telecoms.svg",
+    imageAlt: "Illustration of telecom towers with maintenance overlays",
   },
   {
     icon: Landmark,
@@ -30,6 +34,8 @@ const industries = [
     results: "47% OPEX savings, 64% waste diversion rates, and full transparency for stakeholders.",
     modules: "Property Management, Waste Management, Asset Management",
     color: "accent-gold",
+    imageSrc: "/images/industry-municipal.svg",
+    imageAlt: "Illustration of UK municipal sustainability operations",
   },
 ];
 
@@ -38,11 +44,21 @@ export default function Industries() {
     <div className="min-h-screen pt-32 pb-20">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         {/* Header */}
-        <div className="text-center mb-16">
-          <h1 className="mb-6">Built for complex organisations</h1>
-          <p className="text-lg md:text-xl text-muted max-w-3xl mx-auto">
-            De-Graft is purpose-built for organizations managing large portfolios across multiple locations. Here's how we serve key industries.
-          </p>
+        <div className="relative overflow-hidden rounded-3xl mb-16">
+          <img
+            src="/images/industries-hero.svg"
+            alt="Collage of British public services for banks, telecoms, and councils"
+            className="absolute inset-0 h-full w-full object-cover -z-20"
+            loading="lazy"
+          />
+          <div className="absolute inset-0 bg-bg/85 -z-10" aria-hidden="true" />
+
+          <div className="relative text-center px-6 py-16 md:py-20">
+            <h1 className="mb-6">Built for complex organisations</h1>
+            <p className="text-lg md:text-xl text-muted max-w-3xl mx-auto">
+              De-Graft is purpose-built for organizations managing large portfolios across multiple locations. Here's how we serve key industries.
+            </p>
+          </div>
         </div>
 
         {/* Industry Cards */}
@@ -52,8 +68,19 @@ export default function Industries() {
             return (
               <div
                 key={index}
-                className="rounded-2xl bg-panel border border-border p-8 md:p-12 shadow-card"
+                className="rounded-2xl bg-panel border border-border p-8 md:p-12 shadow-card overflow-hidden"
               >
+                {industry.imageSrc && (
+                  <div className="relative -mx-8 md:-mx-12 -mt-8 mb-8 overflow-hidden rounded-t-2xl">
+                    <img
+                      src={industry.imageSrc}
+                      alt={industry.imageAlt}
+                      className="h-44 w-full object-cover"
+                      loading="lazy"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-bg via-bg/40 to-transparent" aria-hidden="true" />
+                  </div>
+                )}
                 <div className="grid lg:grid-cols-3 gap-8">
                   {/* Icon & Title */}
                   <div>
@@ -109,19 +136,29 @@ export default function Industries() {
         </div>
 
         {/* Bottom Info */}
-        <div className="mt-20 text-center rounded-2xl bg-secondary/50 p-8 md:p-12">
-          <h3 className="text-2xl md:text-3xl font-bold mb-4">
-            Don't see your industry?
-          </h3>
-          <p className="text-lg text-muted mb-6 max-w-2xl mx-auto">
-            De-Graft serves facilities teams, corporate real estate, logistics providers, and more. If you manage property, assets, or waste, we can help.
-          </p>
-          <Button asChild size="lg">
-            <Link to="/contact">
-              Let's Talk
-              <ArrowRight className="ml-2 h-5 w-5" />
-            </Link>
-          </Button>
+        <div className="mt-20 text-center rounded-2xl bg-secondary/50 p-8 md:p-12 relative overflow-hidden">
+          <img
+            src="/images/industry-municipal.svg"
+            alt="Illustration covering additional industries served"
+            className="absolute inset-0 h-full w-full object-cover -z-20"
+            loading="lazy"
+          />
+          <div className="absolute inset-0 bg-secondary/85 -z-10" aria-hidden="true" />
+
+          <div className="relative">
+            <h3 className="text-2xl md:text-3xl font-bold mb-4">
+              Don't see your industry?
+            </h3>
+            <p className="text-lg text-muted mb-6 max-w-2xl mx-auto">
+              De-Graft serves facilities teams, corporate real estate, logistics providers, and more. If you manage property, assets, or waste, we can help.
+            </p>
+            <Button asChild size="lg">
+              <Link to="/contact">
+                Let's Talk
+                <ArrowRight className="ml-2 h-5 w-5" />
+              </Link>
+            </Button>
+          </div>
         </div>
       </div>
 
@@ -131,6 +168,8 @@ export default function Industries() {
         primaryText="Book a Demo"
         secondaryText="View Solutions"
         secondaryHref="/solutions"
+        backgroundImageSrc="/images/industries-hero.svg"
+        backgroundImageAlt="Collage of British industries partnering with De-Graft"
       />
     </div>
   );

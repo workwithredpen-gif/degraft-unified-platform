@@ -1,0 +1,35 @@
+<svg width="1440" height="600" viewBox="0 0 1440 600" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Abstract data visualisation wallpaper</title>
+  <desc id="desc">Gradient background with charts and pound sterling icons for measurable impact section.</desc>
+  <defs>
+    <linearGradient id="impactGradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#06182d" />
+      <stop offset="100%" stop-color="#0d3052" />
+    </linearGradient>
+  </defs>
+  <rect width="1440" height="600" fill="url(#impactGradient)" />
+  <g stroke="#113f67" stroke-width="2" opacity="0.4">
+    <path d="M0 480 L1440 480" />
+    <path d="M0 420 L1440 420" />
+    <path d="M0 360 L1440 360" />
+    <path d="M0 300 L1440 300" />
+    <path d="M0 240 L1440 240" />
+  </g>
+  <g stroke="#1e5b8a" stroke-width="2" opacity="0.6">
+    <path d="M160 520 L300 420 L420 460 L580 320 L760 360 L940 280 L1100 340 L1260 260" fill="none" />
+    <path d="M200 460 L340 360 L460 400 L640 260 L820 300 L1000 220 L1180 300 L1340 240" fill="none" opacity="0.5" />
+  </g>
+  <g fill="#22d3ee" opacity="0.6">
+    <circle cx="300" cy="420" r="16" />
+    <circle cx="580" cy="320" r="18" />
+    <circle cx="760" cy="360" r="14" />
+    <circle cx="940" cy="280" r="18" />
+    <circle cx="1100" cy="340" r="16" />
+    <circle cx="1260" cy="260" r="18" />
+  </g>
+  <g fill="#facc15" opacity="0.85">
+    <text x="240" y="520" font-size="48" font-family="'Inter', 'Segoe UI', sans-serif">£</text>
+    <text x="640" y="280" font-size="56" font-family="'Inter', 'Segoe UI', sans-serif">£</text>
+    <text x="1020" y="240" font-size="48" font-family="'Inter', 'Segoe UI', sans-serif">£</text>
+  </g>
+</svg>

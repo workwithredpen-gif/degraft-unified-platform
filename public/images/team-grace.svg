@@ -1,0 +1,19 @@
+<svg width="320" height="320" viewBox="0 0 320 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Portrait illustration of Grace Kimani</title>
+  <desc id="desc">Vector portrait of a sustainability leader wearing a gold accent scarf.</desc>
+  <defs>
+    <linearGradient id="backgroundGrace" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#112030" />
+      <stop offset="100%" stop-color="#1a3b42" />
+    </linearGradient>
+  </defs>
+  <rect width="320" height="320" rx="160" fill="url(#backgroundGrace)" />
+  <circle cx="160" cy="130" r="70" fill="#1c2733" />
+  <circle cx="160" cy="130" r="58" fill="#2b353f" />
+  <path d="M120 242 h80 c0-36-26-70-40-70 h-20 c-14 0-40 34-20 70z" fill="#0f172a" />
+  <path d="M136 160 h48 c20 0 38 18 38 38 v30 h-124 v-30 c0-20 18-38 38-38z" fill="#f5e2cb" />
+  <circle cx="160" cy="150" r="34" fill="#f5e2cb" />
+  <path d="M124 142 c12-14 34-24 36-34 c6 12 22 22 36 34 v8 c-10 12-24 18-36 18 s-26-6-36-18z" fill="#243547" />
+  <path d="M136 186 h48 c-4 14-18 26-24 26 s-20-12-24-26z" fill="#facc15" opacity="0.7" />
+  <rect x="118" y="224" width="84" height="18" rx="9" fill="#facc15" opacity="0.6" />
+</svg>

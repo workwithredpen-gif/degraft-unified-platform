@@ -1,0 +1,38 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">High-tech recycling facility illustration</title>
+  <desc id="desc">Vector illustration of a modern British recycling plant with conveyor belts and smart sensors.</desc>
+  <defs>
+    <linearGradient id="facility" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0b1f2d" />
+      <stop offset="100%" stop-color="#13354d" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#facility)" />
+  <g fill="#1e4d2b" stroke="#65f0c6" stroke-width="4">
+    <rect x="140" y="220" width="520" height="160" rx="30" />
+    <rect x="180" y="180" width="120" height="40" rx="12" />
+    <rect x="500" y="180" width="120" height="40" rx="12" />
+  </g>
+  <g fill="#65f0c6" opacity="0.3">
+    <rect x="200" y="240" width="80" height="80" />
+    <rect x="320" y="240" width="80" height="80" />
+    <rect x="440" y="240" width="80" height="80" />
+    <rect x="560" y="240" width="80" height="80" />
+  </g>
+  <g stroke="#65f0c6" stroke-width="6" stroke-linecap="round">
+    <path d="M200 320 L260 360 L320 320 L380 360 L440 320 L500 360 L560 320 L620 360" fill="none" />
+  </g>
+  <g fill="#bff3d2" opacity="0.9">
+    <circle cx="200" cy="320" r="18" />
+    <circle cx="320" cy="320" r="18" />
+    <circle cx="440" cy="320" r="18" />
+    <circle cx="560" cy="320" r="18" />
+  </g>
+  <rect x="260" y="400" width="280" height="80" rx="24" fill="#122438" />
+  <g stroke="#65f0c6" stroke-width="4" opacity="0.8" stroke-linecap="round">
+    <path d="M280 440 h240" />
+    <path d="M280 420 h120" />
+    <path d="M280 460 h120" />
+  </g>
+  <rect x="320" y="500" width="160" height="16" rx="8" fill="#0f172a" opacity="0.4" />
+</svg>

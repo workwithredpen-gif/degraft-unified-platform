@@ -1,0 +1,19 @@
+<svg width="320" height="320" viewBox="0 0 320 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Portrait illustration of Samuel De-Graft</title>
+  <desc id="desc">Vector portrait of a confident Black tech leader wearing a suit, illustrated in De-Graft's brand colours.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b2137" />
+      <stop offset="100%" stop-color="#134b6f" />
+    </linearGradient>
+  </defs>
+  <rect width="320" height="320" rx="160" fill="url(#background)" />
+  <circle cx="160" cy="120" r="70" fill="#1f2933" />
+  <circle cx="160" cy="120" r="58" fill="#2b2f3f" />
+  <path d="M110 240 h100 c0-50-40-90-50-90 h-20 c-10 0-50 40-30 90z" fill="#0f172a" />
+  <path d="M140 150 h40 c24 0 44 20 44 44 v30 h-128 v-30 c0-24 20-44 44-44z" fill="#f8e7d1" opacity="0.92" />
+  <circle cx="160" cy="140" r="36" fill="#f8e7d1" />
+  <path d="M128 134 c10-4 26-10 32-24 c6 14 22 20 32 24 v10 c-8 8-28 14-32 14 s-24-6-32-14z" fill="#1f2933" />
+  <path d="M148 182 h24 c0 12-6 22-12 22 s-12-10-12-22z" fill="#eab308" opacity="0.6" />
+  <rect x="120" y="220" width="80" height="16" rx="8" fill="#22d3ee" opacity="0.7" />
+</svg>

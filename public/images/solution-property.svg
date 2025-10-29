@@ -1,0 +1,36 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Mixed-use British estates aerial illustration</title>
+  <desc id="desc">Stylised map of London buildings and greenery representing a property portfolio.</desc>
+  <defs>
+    <linearGradient id="estateSky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0c1930" />
+      <stop offset="100%" stop-color="#12324f" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#estateSky)" />
+  <g fill="#1b3d5d" stroke="#38bdf8" stroke-width="4">
+    <rect x="140" y="120" width="120" height="180" rx="20" />
+    <rect x="300" y="160" width="160" height="220" rx="20" />
+    <rect x="520" y="100" width="140" height="240" rx="20" />
+  </g>
+  <g fill="#0ea5e9" opacity="0.25">
+    <rect x="160" y="140" width="80" height="140" />
+    <rect x="340" y="200" width="80" height="120" />
+    <rect x="560" y="140" width="60" height="160" />
+  </g>
+  <g fill="#1c6758">
+    <circle cx="220" cy="360" r="70" />
+    <circle cx="420" cy="380" r="90" />
+    <circle cx="620" cy="360" r="70" />
+  </g>
+  <g fill="#65f0c6" opacity="0.6">
+    <circle cx="220" cy="360" r="35" />
+    <circle cx="420" cy="380" r="45" />
+    <circle cx="620" cy="360" r="30" />
+  </g>
+  <g stroke="#facc15" stroke-width="5" stroke-linecap="round">
+    <path d="M220 360 L420 380 L620 360" />
+    <path d="M220 360 L420 240 L620 360" opacity="0.6" />
+  </g>
+  <rect x="240" y="460" width="320" height="30" rx="15" fill="#0f172a" opacity="0.5" />
+</svg>

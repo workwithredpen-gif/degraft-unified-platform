@@ -40,16 +40,32 @@ export default function Contact() {
     <div className="min-h-screen pt-32 pb-20">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         {/* Header */}
-        <div className="text-center mb-16">
-          <h1 className="mb-6">Get in Touch</h1>
-          <p className="text-lg md:text-xl text-muted max-w-2xl mx-auto">
-            Ready to see how De-Graft can transform your operations? Book a demo or get in touch with our team.
-          </p>
+        <div className="relative overflow-hidden rounded-3xl mb-16">
+          <img
+            src="/images/contact-hero.svg"
+            alt="Customer success specialist on a video call with London skyline"
+            className="absolute inset-0 h-full w-full object-cover -z-20"
+            loading="lazy"
+          />
+          <div className="absolute inset-0 bg-bg/85 -z-10" aria-hidden="true" />
+
+          <div className="relative text-center px-6 py-16 md:py-20">
+            <h1 className="mb-6">Get in Touch</h1>
+            <p className="text-lg md:text-xl text-muted max-w-2xl mx-auto">
+              Ready to see how De-Graft can transform your operations? Book a demo or get in touch with our team.
+            </p>
+          </div>
         </div>
 
         <div className="grid lg:grid-cols-2 gap-12 max-w-6xl mx-auto">
           {/* Contact Info */}
           <div>
+            <img
+              src="/images/cta-meeting.svg"
+              alt="De-Graft team hosting a consultation"
+              className="mb-8 w-full rounded-2xl object-cover shadow-lg"
+              loading="lazy"
+            />
             <h2 className="text-2xl font-semibold mb-8">Contact Information</h2>
 
             <div className="space-y-6 mb-12">

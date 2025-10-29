@@ -34,27 +34,113 @@ const solutionTabs = [
 
 const solutionFeatures = {
   property: [
-    { icon: Building, title: "Portfolio Overview", description: "Complete visibility across all properties" },
-    { icon: Wrench, title: "Work Orders", description: "Automated ticketing and vendor coordination" },
-    { icon: ClipboardCheck, title: "Compliance", description: "Track certifications and audit requirements" },
+    {
+      icon: Building,
+      title: "Portfolio Overview",
+      description: "Complete visibility across all properties",
+      imageSrc: "/images/solution-property.svg",
+      imageAlt: "Mixed-use British estate illustration",
+    },
+    {
+      icon: Wrench,
+      title: "Work Orders",
+      description: "Automated ticketing and vendor coordination",
+      imageSrc: "/images/solution-property.svg",
+      imageAlt: "Facilities team coordinating work orders",
+    },
+    {
+      icon: ClipboardCheck,
+      title: "Compliance",
+      description: "Track certifications and audit requirements",
+      imageSrc: "/images/solution-property.svg",
+      imageAlt: "Compliance checklist illustration",
+    },
   ],
   asset: [
-    { icon: Package, title: "Lifecycle & Registers", description: "Complete asset history and documentation" },
-    { icon: Settings, title: "Preventive Maintenance", description: "Scheduled maintenance and alerts" },
-    { icon: TrendingUp, title: "IoT & Analytics", description: "Real-time monitoring and insights" },
+    {
+      icon: Package,
+      title: "Lifecycle & Registers",
+      description: "Complete asset history and documentation",
+      imageSrc: "/images/solution-asset.svg",
+      imageAlt: "Engineer servicing telecom infrastructure",
+    },
+    {
+      icon: Settings,
+      title: "Preventive Maintenance",
+      description: "Scheduled maintenance and alerts",
+      imageSrc: "/images/solution-asset.svg",
+      imageAlt: "Preventive maintenance planning illustration",
+    },
+    {
+      icon: TrendingUp,
+      title: "IoT & Analytics",
+      description: "Real-time monitoring and insights",
+      imageSrc: "/images/solution-asset.svg",
+      imageAlt: "IoT performance analytics illustration",
+    },
   ],
   waste: [
-    { icon: Trash2, title: "Streams & Segregation", description: "Track waste by type and location" },
-    { icon: Route, title: "Collections & Routes", description: "Optimize pickup schedules and routes" },
-    { icon: BarChart3, title: "ESG Reporting", description: "Automated sustainability metrics" },
+    {
+      icon: Trash2,
+      title: "Streams & Segregation",
+      description: "Track waste by type and location",
+      imageSrc: "/images/solution-waste.svg",
+      imageAlt: "Smart recycling facility illustration",
+    },
+    {
+      icon: Route,
+      title: "Collections & Routes",
+      description: "Optimize pickup schedules and routes",
+      imageSrc: "/images/solution-waste.svg",
+      imageAlt: "Collections route planning illustration",
+    },
+    {
+      icon: BarChart3,
+      title: "ESG Reporting",
+      description: "Automated sustainability metrics",
+      imageSrc: "/images/solution-waste.svg",
+      imageAlt: "ESG waste analytics illustration",
+    },
   ],
 };
 
+const solutionBackgrounds = {
+  property: "/images/solution-property.svg",
+  asset: "/images/solution-asset.svg",
+  waste: "/images/solution-waste.svg",
+};
+
+const solutionBackgroundAlts = {
+  property: "Illustration of British estates representing property management",
+  asset: "Engineer maintaining telecom infrastructure",
+  waste: "Smart recycling facility for waste operations",
+};
+
 const awards = [
-  { title: "PropTech Innovation", year: "2024" },
-  { title: "ESG Impact Award", year: "2023" },
-  { title: "GovTech Pilot Winner", year: "2023" },
-  { title: "Customer Choice", year: "2024" },
+  {
+    title: "PropTech Innovation",
+    year: "2024",
+    imageSrc: "/images/awards-spotlight.svg",
+    imageAlt: "UK property technology trophy illustration",
+  },
+  {
+    title: "ESG Impact Award",
+    year: "2023",
+    imageSrc: "/images/awards-spotlight.svg",
+    imageAlt: "ESG award spotlight illustration",
+  },
+  {
+    title: "GovTech Pilot Winner",
+    year: "2023",
+    imageSrc: "/images/awards-spotlight.svg",
+    imageAlt: "GovTech pilot celebration illustration",
+  },
+  {
+    title: "Customer Choice",
+    year: "2024",
+    imageSrc: "/images/awards-spotlight.svg",
+    imageAlt: "Customer voted award illustration",
+  },
 ];
 
 export default function Home() {
@@ -63,10 +149,16 @@ export default function Home() {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-<section className="relative pt-32 pb-20 md:pt-40 md:pb-28 overflow-hidden">
-  <div className="absolute inset-0 bg-gradient-to-br from-bg via-brand/5 to-bg -z-10" />
-  
-  <div className="mx-auto max-w-7xl px-6 lg:px-8">
+      <section className="relative pt-32 pb-20 md:pt-40 md:pb-28 overflow-hidden">
+        <img
+          src="/images/home-hero.svg"
+          alt="Stylised sunrise over the City of London skyline"
+          className="absolute inset-0 h-full w-full object-cover -z-20"
+          loading="eager"
+        />
+        <div className="absolute inset-0 bg-gradient-to-br from-bg/95 via-brand/60 to-bg/80 -z-10" />
+
+        <div className="mx-auto max-w-7xl px-6 lg:px-8">
     <div className="grid lg:grid-cols-2 gap-12 items-center">
       <div>
         <Badge className="mb-6">Property • Asset • Waste</Badge>
@@ -166,24 +258,38 @@ export default function Home() {
               icon={Shield}
               title="Secure & Cloud-Hosted"
               description="Bank-grade security with SOC 2 compliance and encrypted data storage."
+              imageSrc="/images/value-secure.svg"
+              imageAlt="Illustration of a secure UK data centre"
             />
             <FeatureCard
               icon={Brain}
               title="AI-Ready Workflows"
               description="Smart automation that learns from your processes and reduces manual work."
+              imageSrc="/images/value-ai.svg"
+              imageAlt="AI network overlay on London map"
             />
             <FeatureCard
               icon={BarChart3}
               title="Real-Time Analytics"
               description="Actionable insights and custom reports that drive better decisions."
+              imageSrc="/images/value-analytics.svg"
+              imageAlt="Operations team reviewing analytics dashboards"
             />
           </div>
         </div>
       </section>
 
       {/* Solutions Preview */}
-      <section className="py-16 md:py-24 bg-secondary/30">
-        <div className="mx-auto max-w-7xl px-6 lg:px-8">
+      <section className="relative py-16 md:py-24 overflow-hidden">
+        <img
+          src={solutionBackgrounds[activeTab]}
+          alt={solutionBackgroundAlts[activeTab]}
+          className="absolute inset-0 h-full w-full object-cover -z-20"
+          loading="lazy"
+        />
+        <div className="absolute inset-0 bg-secondary/80 backdrop-blur-sm -z-10" aria-hidden="true" />
+
+        <div className="mx-auto max-w-7xl px-6 lg:px-8 relative">
           <div className="text-center mb-12">
             <h2 className="mb-4">Solutions that work together</h2>
             <p className="text-lg text-muted max-w-2xl mx-auto">
@@ -216,6 +322,8 @@ export default function Home() {
                 icon={feature.icon}
                 title={feature.title}
                 description={feature.description}
+                imageSrc={feature.imageSrc}
+                imageAlt={feature.imageAlt}
               />
             ))}
           </div>
@@ -232,8 +340,16 @@ export default function Home() {
       </section>
 
       {/* Impact Stats */}
-      <section className="py-16 md:py-24">
-        <div className="mx-auto max-w-7xl px-6 lg:px-8">
+      <section className="relative py-16 md:py-24 overflow-hidden">
+        <img
+          src="/images/impact-bg.svg"
+          alt="Abstract data visualisation wallpaper with pound sterling symbols"
+          className="absolute inset-0 h-full w-full object-cover -z-20"
+          loading="lazy"
+        />
+        <div className="absolute inset-0 bg-bg/85 -z-10" aria-hidden="true" />
+
+        <div className="mx-auto max-w-7xl px-6 lg:px-8 relative">
           <div className="text-center mb-12">
             <h2 className="mb-4">Measurable Impact</h2>
             <p className="text-lg text-muted">Real results from our customers</p>
@@ -256,7 +372,13 @@ export default function Home() {
 
           <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
             {/* Before */}
-            <div className="rounded-xl bg-panel border border-border p-8">
+            <div className="rounded-xl bg-panel border border-border p-8 overflow-hidden">
+              <img
+                src="/images/before-operations.svg"
+                alt="Cluttered filing room representing life without De-Graft"
+                className="-mx-8 -mt-8 mb-6 h-48 w-full object-cover"
+                loading="lazy"
+              />
               <h3 className="text-xl font-semibold mb-6 flex items-center gap-2">
                 <X className="h-6 w-6 text-destructive" />
                 Without De-Graft
@@ -282,7 +404,13 @@ export default function Home() {
             </div>
 
             {/* After */}
-            <div className="rounded-xl bg-gradient-to-br from-brand/10 to-brand/5 border border-brand/20 p-8">
+            <div className="rounded-xl bg-gradient-to-br from-brand/10 to-brand/5 border border-brand/20 p-8 overflow-hidden">
+              <img
+                src="/images/after-operations.svg"
+                alt="Modern operations centre representing De-Graft"
+                className="-mx-8 -mt-8 mb-6 h-48 w-full object-cover"
+                loading="lazy"
+              />
               <h3 className="text-xl font-semibold mb-6 flex items-center gap-2">
                 <Check className="h-6 w-6 text-brand" />
                 With De-Graft
@@ -321,9 +449,17 @@ export default function Home() {
             {awards.map((award, index) => (
               <div
                 key={index}
-                className="rounded-xl bg-panel border border-border p-6 text-center"
+                className="rounded-xl bg-panel border border-border p-6 text-center overflow-hidden"
               >
-                <Award className="h-12 w-12 text-accent-gold mx-auto mb-4" />
+                <img
+                  src={award.imageSrc}
+                  alt={award.imageAlt}
+                  className="-mx-6 -mt-6 mb-4 h-28 w-full object-cover"
+                  loading="lazy"
+                />
+                <div className="flex h-12 w-12 items-center justify-center rounded-full bg-accent-gold/20 mx-auto mb-4">
+                  <Award className="h-6 w-6 text-accent-gold" />
+                </div>
                 <h4 className="font-semibold mb-1">{award.title}</h4>
                 <p className="text-sm text-muted">{award.year}</p>
               </div>
@@ -339,6 +475,8 @@ export default function Home() {
         primaryText="Book a Demo"
         secondaryText="Contact Sales"
         secondaryHref="/contact"
+        backgroundImageSrc="/images/cta-meeting.svg"
+        backgroundImageAlt="Business meeting illustration for the book a demo call to action"
       />
     </div>
   );
