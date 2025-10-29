@@ -63,69 +63,69 @@ export default function Home() {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="relative pt-32 pb-20 md:pt-40 md:pb-28 overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-br from-bg via-brand/5 to-bg -z-10" />
+<section className="relative pt-32 pb-20 md:pt-40 md:pb-28 overflow-hidden">
+  <div className="absolute inset-0 bg-gradient-to-br from-bg via-brand/5 to-bg -z-10" />
+  
+  <div className="mx-auto max-w-7xl px-6 lg:px-8">
+    <div className="grid lg:grid-cols-2 gap-12 items-center">
+      <div>
+        <Badge className="mb-6">Property • Asset • Waste</Badge>
         
-        <div className="mx-auto max-w-7xl px-6 lg:px-8">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
-            <div>
-              <Badge className="mb-6">Property • Asset • Waste</Badge>
-              
-              <h1 className="text-balance mb-6">
-                Replace spreadsheets with a single platform for Property, Asset & Waste Management
-              </h1>
-              
-              <p className="text-lg md:text-xl text-muted mb-8 max-w-2xl">
-                Cloud software that automates key processes, reduces fraud, and cuts costs for banks, insurers, telecoms, and public estates.
-              </p>
-              
-              <div className="flex flex-col sm:flex-row gap-4">
-                <Button asChild size="lg">
-                  <Link to="/contact">
-                    Book a Demo
-                    <ArrowRight className="ml-2 h-5 w-5" />
-                  </Link>
-                </Button>
-                <Button asChild size="lg" variant="outline">
-                  <Link to="/solutions">See Platform</Link>
-                </Button>
-              </div>
-            </div>
+        <h1 className="text-balance mb-6">
+          Replace spreadsheets with a single platform for Property, Asset & Waste Management
+        </h1>
+        
+        <p className="text-lg md:text-xl text-muted mb-8 max-w-2xl">
+          Cloud software that automates key processes, reduces fraud, and cuts costs for banks, insurers, telecoms, and public estates.
+        </p>
+        
+        <div className="flex flex-col sm:flex-row gap-4">
+          <Button asChild size="lg">
+            <Link to="/contact">
+              Book a Demo
+              <ArrowRight className="ml-2 h-5 w-5" />
+            </Link>
+          </Button>
+          <Button asChild size="lg" variant="outline">
+            <Link to="/solutions">See Platform</Link>
+          </Button>
+        </div>
+      </div>
 
-            {/* Dashboard Mock */}
-            <div className="rounded-2xl bg-panel border border-border p-6 shadow-card">
-              <div className="space-y-6">
-                <div className="flex items-center justify-between">
-                  <h3 className="text-lg font-semibold">Platform Overview</h3>
-                  <Badge variant="accent">Live</Badge>
-                </div>
-                
-                <div className="grid grid-cols-2 gap-4">
-                  <div className="rounded-lg bg-brand/5 p-4">
-                    <div className="text-2xl font-bold text-brand">98.2%</div>
-                    <div className="text-sm text-muted">Asset Health</div>
-                  </div>
-                  <div className="rounded-lg bg-accent-blue/5 p-4">
-                    <div className="text-2xl font-bold text-accent-blue">64%</div>
-                    <div className="text-sm text-muted">Waste Diverted</div>
-                  </div>
-                  <div className="col-span-2 rounded-lg bg-accent-gold/5 p-4">
-                    <div className="text-2xl font-bold text-accent-gold">≈ 47%</div>
-                    <div className="text-sm text-muted">OPEX Savings</div>
-                  </div>
-                </div>
-
-                <div className="space-y-2">
-                  <div className="flex justify-between text-sm">
-                    <span className="text-muted">Operations</span>
-                    <span className="font-medium">94%</span>
-                  </div>
-                  <div className="h-2 rounded-full bg-secondary overflow-hidden">
-                    <div className="h-full w-[94%] bg-brand rounded-full" />
-                  </div>
-                </div>
-              </div>
+      {/* Dashboard Mock */}
+      <div className="rounded-2xl bg-panel border border-border p-6 shadow-card">
+        <div className="space-y-6">
+          <div className="flex items-center justify-between">
+            <h3 className="text-lg font-semibold">Platform Overview</h3>
+            <Badge variant="accent">Live</Badge>
+          </div>
+          
+          <div className="grid grid-cols-2 gap-4">
+            <div className="rounded-lg bg-brand/5 p-4">
+              <div className="text-2xl font-bold text-brand">98.2%</div>
+              <div className="text-sm text-muted">Asset Health</div>
             </div>
+            <div className="rounded-lg bg-accent-blue/5 p-4">
+              <div className="text-2xl font-bold text-accent-blue">64%</div>
+              <div className="text-sm text-muted">Waste Diverted</div>
+            </div>
+            <div className="col-span-2 rounded-lg bg-accent-gold/5 p-4">
+              <div className="text-2xl font-bold text-accent-gold">≈ 47%</div>
+              <div className="text-sm text-muted">OPEX Savings</div>
+            </div>
+          </div>
+
+          <div className="space-y-2">
+            <div className="flex justify-between text-sm">
+              <span className="text-muted">Operations</span>
+              <span className="font-medium">94%</span>
+            </div>
+            <div className="h-2 rounded-full bg-secondary overflow-hidden">
+              <div className="h-full w-[94%] bg-brand rounded-full" />
+            </div>
+          </div>
+        </div>
+      </div>
           </div>
         </div>
       </section>
