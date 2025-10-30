@@ -287,7 +287,7 @@ export default function Home() {
           className="absolute inset-0 h-full w-full object-cover -z-20"
           loading="lazy"
         />
-        <div className="absolute inset-0 bg-secondary/80 backdrop-blur-sm -z-10" aria-hidden="true" />
+        <div className="absolute inset-0 bg-secondary/50 backdrop-blur-sm -z-10" aria-hidden="true" />
 
         <div className="mx-auto max-w-7xl px-6 lg:px-8 relative">
           <div className="text-center mb-12">
