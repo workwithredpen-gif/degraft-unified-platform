@@ -13,29 +13,29 @@ const team = [
     name: "Samuel De-Graft",
     role: "Founder & CEO",
     bio: "Former property management director with 15 years leading operations for multinational banks.",
-    imageSrc: "/images/team-samuel.svg",
-    imageAlt: "Illustrated headshot of Samuel De-Graft",
+    imageSrc: "https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg?auto=compress&cs=tinysrgb&w=400",
+    imageAlt: "Professional executive portrait",
   },
   {
     name: "Ama Osei",
     role: "Chief Product Officer",
     bio: "IoT and smart cities expert. Previously led asset management platforms for telecom operators.",
-    imageSrc: "/images/team-ama.svg",
-    imageAlt: "Illustrated headshot of Ama Osei",
+    imageSrc: "https://images.pexels.com/photos/3756679/pexels-photo-3756679.jpeg?auto=compress&cs=tinysrgb&w=400",
+    imageAlt: "Product officer professional headshot",
   },
   {
     name: "David Mensah",
     role: "Head of Engineering",
     bio: "Built scalable SaaS platforms for 10+ years. Passionate about clean code and user experience.",
-    imageSrc: "/images/team-david.svg",
-    imageAlt: "Illustrated headshot of David Mensah",
+    imageSrc: "https://images.pexels.com/photos/2182972/pexels-photo-2182972.jpeg?auto=compress&cs=tinysrgb&w=400",
+    imageAlt: "Engineering leader professional portrait",
   },
   {
     name: "Grace Kimani",
     role: "Regional Director, East Africa",
     bio: "15 years in municipal waste management. Drives our sustainability and ESG initiatives.",
-    imageSrc: "/images/team-grace.svg",
-    imageAlt: "Illustrated headshot of Grace Kimani",
+    imageSrc: "https://images.pexels.com/photos/3756523/pexels-photo-3756523.jpeg?auto=compress&cs=tinysrgb&w=400",
+    imageAlt: "Regional director professional portrait",
   },
 ];
 
@@ -45,8 +45,8 @@ export default function About() {
       {/* Hero */}
       <section className="relative mb-20 overflow-hidden">
         <img
-          src="/images/about-hero.svg"
-          alt="Founding team collaborating in a London workspace"
+          src="https://images.pexels.com/photos/3184357/pexels-photo-3184357.jpeg?auto=compress&cs=tinysrgb&w=1920"
+          alt="Diverse business team collaborating in modern office"
           className="absolute inset-0 h-full w-full object-cover -z-20"
           loading="lazy"
         />
@@ -68,8 +68,8 @@ export default function About() {
           <div className="grid md:grid-cols-2 gap-12 max-w-5xl mx-auto">
             <div>
               <img
-                src="/images/about-story.svg"
-                alt="Illustration of De-Graft's early operations"
+                src="https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=800"
+                alt="Entrepreneur working on startup vision"
                 className="mb-6 w-full rounded-xl object-cover"
                 loading="lazy"
               />
@@ -84,8 +84,8 @@ export default function About() {
 
             <div>
               <img
-                src="/images/about-mission.svg"
-                alt="Illustration of a connected smart city representing De-Graft's mission"
+                src="https://images.pexels.com/photos/1108572/pexels-photo-1108572.jpeg?auto=compress&cs=tinysrgb&w=800"
+                alt="Innovation and technology for smart cities"
                 className="mb-6 w-full rounded-xl object-cover"
                 loading="lazy"
               />
@@ -163,9 +163,9 @@ export default function About() {
           </div>
 
           <img
-            src="/images/global-presence.svg"
-            alt="Stylised world map highlighting London, Accra, and Nairobi"
-            className="mx-auto mb-12 h-64 w-full max-w-4xl object-contain"
+            src="https://images.pexels.com/photos/335393/pexels-photo-335393.jpeg?auto=compress&cs=tinysrgb&w=1200"
+            alt="Global business presence and international operations"
+            className="mx-auto mb-12 h-64 w-full max-w-4xl object-cover rounded-xl opacity-80"
             loading="lazy"
           />
 
@@ -197,8 +197,8 @@ export default function About() {
         primaryText="Book a Demo"
         secondaryText="Contact Us"
         secondaryHref="/contact"
-        backgroundImageSrc="/images/cta-meeting.svg"
-        backgroundImageAlt="Business meeting illustration supporting the call to action"
+        backgroundImageSrc="https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=1920"
+        backgroundImageAlt="Professional business meeting and consultation"
       />
     </div>
   );

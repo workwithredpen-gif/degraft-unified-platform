@@ -210,6 +210,8 @@ export default function PropertyManagement() {
         primaryText="Book a Demo"
         secondaryText="View All Solutions"
         secondaryHref="/solutions"
+        backgroundImageSrc="https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=1920"
+        backgroundImageAlt="Professional business consultation"
       />
     </div>
   );
