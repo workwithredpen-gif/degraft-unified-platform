@@ -305,7 +305,7 @@ export default function Home() {
                 onClick={() => setActiveTab(tab.id as typeof activeTab)}
                 className={`px-6 py-3 rounded-lg font-medium transition-all ${
                   activeTab === tab.id
-                    ? "bg-brand text-brand-foreground shadow-lg"
+                    ? "bg-brand text-brand-foreground"
                     : "bg-panel text-muted hover:bg-panel/80"
                 }`}
               >
