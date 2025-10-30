@@ -156,7 +156,7 @@ export default function Home() {
           className="absolute inset-0 h-full w-full object-cover -z-20"
           loading="eager"
         />
-        <div className="absolute inset-0 bg-gradient-to-br from-bg/95 via-brand/60 to-bg/80 -z-10" />
+        
 
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
     <div className="grid lg:grid-cols-2 gap-12 items-center">
