@@ -38,22 +38,22 @@ const solutionFeatures = {
       icon: Building,
       title: "Portfolio Overview",
       description: "Complete visibility across all properties",
-      imageSrc: "/images/solution-property.svg",
-      imageAlt: "Mixed-use British estate illustration",
+      imageSrc: "https://images.pexels.com/photos/323705/pexels-photo-323705.jpeg?auto=compress&cs=tinysrgb&w=800",
+      imageAlt: "Modern building property management",
     },
     {
       icon: Wrench,
       title: "Work Orders",
       description: "Automated ticketing and vendor coordination",
-      imageSrc: "/images/solution-property.svg",
-      imageAlt: "Facilities team coordinating work orders",
+      imageSrc: "https://images.pexels.com/photos/6173350/pexels-photo-6173350.jpeg?auto=compress&cs=tinysrgb&w=800",
+      imageAlt: "Maintenance worker managing facilities",
     },
     {
       icon: ClipboardCheck,
       title: "Compliance",
       description: "Track certifications and audit requirements",
-      imageSrc: "/images/solution-property.svg",
-      imageAlt: "Compliance checklist illustration",
+      imageSrc: "https://images.pexels.com/photos/669610/pexels-photo-669610.jpeg?auto=compress&cs=tinysrgb&w=800",
+      imageAlt: "Professional reviewing compliance documentation",
     },
   ],
   asset: [
@@ -61,22 +61,22 @@ const solutionFeatures = {
       icon: Package,
       title: "Lifecycle & Registers",
       description: "Complete asset history and documentation",
-      imageSrc: "/images/solution-asset.svg",
-      imageAlt: "Engineer servicing telecom infrastructure",
+      imageSrc: "https://images.pexels.com/photos/2881232/pexels-photo-2881232.jpeg?auto=compress&cs=tinysrgb&w=800",
+      imageAlt: "Technician working on industrial equipment",
     },
     {
       icon: Settings,
       title: "Preventive Maintenance",
       description: "Scheduled maintenance and alerts",
-      imageSrc: "/images/solution-asset.svg",
-      imageAlt: "Preventive maintenance planning illustration",
+      imageSrc: "https://images.pexels.com/photos/8369505/pexels-photo-8369505.jpeg?auto=compress&cs=tinysrgb&w=800",
+      imageAlt: "Engineer performing preventive maintenance",
     },
     {
       icon: TrendingUp,
       title: "IoT & Analytics",
       description: "Real-time monitoring and insights",
-      imageSrc: "/images/solution-asset.svg",
-      imageAlt: "IoT performance analytics illustration",
+      imageSrc: "https://images.pexels.com/photos/5483077/pexels-photo-5483077.jpeg?auto=compress&cs=tinysrgb&w=800",
+      imageAlt: "IoT sensors and monitoring technology",
     },
   ],
   waste: [
@@ -84,62 +84,62 @@ const solutionFeatures = {
       icon: Trash2,
       title: "Streams & Segregation",
       description: "Track waste by type and location",
-      imageSrc: "/images/solution-waste.svg",
-      imageAlt: "Smart recycling facility illustration",
+      imageSrc: "https://images.pexels.com/photos/3735218/pexels-photo-3735218.jpeg?auto=compress&cs=tinysrgb&w=800",
+      imageAlt: "Recycling and waste management facility",
     },
     {
       icon: Route,
       title: "Collections & Routes",
       description: "Optimize pickup schedules and routes",
-      imageSrc: "/images/solution-waste.svg",
-      imageAlt: "Collections route planning illustration",
+      imageSrc: "https://images.pexels.com/photos/6739941/pexels-photo-6739941.jpeg?auto=compress&cs=tinysrgb&w=800",
+      imageAlt: "Waste collection vehicle operations",
     },
     {
       icon: BarChart3,
       title: "ESG Reporting",
       description: "Automated sustainability metrics",
-      imageSrc: "/images/solution-waste.svg",
-      imageAlt: "ESG waste analytics illustration",
+      imageSrc: "https://images.pexels.com/photos/8101881/pexels-photo-8101881.jpeg?auto=compress&cs=tinysrgb&w=800",
+      imageAlt: "Sustainability and environmental reporting",
     },
   ],
 };
 
 const solutionBackgrounds = {
-  property: "/images/solution-property.svg",
-  asset: "/images/solution-asset.svg",
-  waste: "/images/solution-waste.svg",
+  property: "https://images.pexels.com/photos/323705/pexels-photo-323705.jpeg?auto=compress&cs=tinysrgb&w=1920",
+  asset: "https://images.pexels.com/photos/2881232/pexels-photo-2881232.jpeg?auto=compress&cs=tinysrgb&w=1920",
+  waste: "https://images.pexels.com/photos/3735218/pexels-photo-3735218.jpeg?auto=compress&cs=tinysrgb&w=1920",
 };
 
 const solutionBackgroundAlts = {
-  property: "Illustration of British estates representing property management",
-  asset: "Engineer maintaining telecom infrastructure",
-  waste: "Smart recycling facility for waste operations",
+  property: "Modern property and building infrastructure",
+  asset: "Industrial infrastructure and asset management",
+  waste: "Sustainable waste management operations",
 };
 
 const awards = [
   {
     title: "PropTech Innovation",
     year: "2024",
-    imageSrc: "/images/awards-spotlight.svg",
-    imageAlt: "UK property technology trophy illustration",
+    imageSrc: "https://images.pexels.com/photos/6069112/pexels-photo-6069112.jpeg?auto=compress&cs=tinysrgb&w=800",
+    imageAlt: "Award ceremony with trophy",
   },
   {
     title: "ESG Impact Award",
     year: "2023",
-    imageSrc: "/images/awards-spotlight.svg",
-    imageAlt: "ESG award spotlight illustration",
+    imageSrc: "https://images.pexels.com/photos/7551661/pexels-photo-7551661.jpeg?auto=compress&cs=tinysrgb&w=800",
+    imageAlt: "Recognition and achievement celebration",
   },
   {
     title: "GovTech Pilot Winner",
     year: "2023",
-    imageSrc: "/images/awards-spotlight.svg",
-    imageAlt: "GovTech pilot celebration illustration",
+    imageSrc: "https://images.pexels.com/photos/3184328/pexels-photo-3184328.jpeg?auto=compress&cs=tinysrgb&w=800",
+    imageAlt: "Professional achievement award presentation",
   },
   {
     title: "Customer Choice",
     year: "2024",
-    imageSrc: "/images/awards-spotlight.svg",
-    imageAlt: "Customer voted award illustration",
+    imageSrc: "https://images.pexels.com/photos/3182746/pexels-photo-3182746.jpeg?auto=compress&cs=tinysrgb&w=800",
+    imageAlt: "Team celebrating customer success",
   },
 ];
 
@@ -151,12 +151,12 @@ export default function Home() {
       {/* Hero Section */}
       <section className="relative pt-32 pb-20 md:pt-40 md:pb-28 overflow-hidden">
         <img
-          src="/images/home-hero.svg"
-          alt="Stylised sunrise over the City of London skyline"
+          src="https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=1920"
+          alt="Professional team collaborating on digital workspace"
           className="absolute inset-0 h-full w-full object-cover -z-20"
           loading="eager"
         />
-        <div className="absolute inset-0 bg-gradient-to-br from-bg/95 via-brand/60 to-bg/80 -z-10" />
+        <div className="absolute inset-0 bg-gradient-to-br from-slate-900/75 via-slate-900/50 to-transparent -z-10" />
 
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
     <div className="grid lg:grid-cols-2 gap-12 items-center">
@@ -258,22 +258,22 @@ export default function Home() {
               icon={Shield}
               title="Secure & Cloud-Hosted"
               description="Bank-grade security with SOC 2 compliance and encrypted data storage."
-              imageSrc="/images/value-secure.svg"
-              imageAlt="Illustration of a secure UK data centre"
+              imageSrc="https://images.pexels.com/photos/60504/security-protection-anti-virus-software-60504.jpeg?auto=compress&cs=tinysrgb&w=800"
+              imageAlt="Secure data center with cloud infrastructure"
             />
             <FeatureCard
               icon={Brain}
               title="AI-Ready Workflows"
               description="Smart automation that learns from your processes and reduces manual work."
-              imageSrc="/images/value-ai.svg"
-              imageAlt="AI network overlay on London map"
+              imageSrc="https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=800"
+              imageAlt="AI and automation technology in action"
             />
             <FeatureCard
               icon={BarChart3}
               title="Real-Time Analytics"
               description="Actionable insights and custom reports that drive better decisions."
-              imageSrc="/images/value-analytics.svg"
-              imageAlt="Operations team reviewing analytics dashboards"
+              imageSrc="https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg?auto=compress&cs=tinysrgb&w=800"
+              imageAlt="Business professionals analyzing data on screens"
             />
           </div>
         </div>
@@ -287,7 +287,7 @@ export default function Home() {
           className="absolute inset-0 h-full w-full object-cover -z-20"
           loading="lazy"
         />
-        <div className="absolute inset-0 bg-secondary/80 backdrop-blur-sm -z-10" aria-hidden="true" />
+        <div className="absolute inset-0 bg-white/90 backdrop-blur-md -z-10" aria-hidden="true" />
 
         <div className="mx-auto max-w-7xl px-6 lg:px-8 relative">
           <div className="text-center mb-12">
@@ -305,8 +305,8 @@ export default function Home() {
                 onClick={() => setActiveTab(tab.id as typeof activeTab)}
                 className={`px-6 py-3 rounded-lg font-medium transition-all ${
                   activeTab === tab.id
-                    ? "bg-brand text-brand-foreground shadow-lg"
-                    : "bg-panel text-muted hover:bg-panel/80"
+                    ? "bg-brand text-brand-foreground shadow-md border-2 border-brand"
+                    : "bg-white/80 backdrop-blur-sm text-muted hover:bg-white/90"
                 }`}
               >
                 {tab.label}
@@ -342,12 +342,12 @@ export default function Home() {
       {/* Impact Stats */}
       <section className="relative py-16 md:py-24 overflow-hidden">
         <img
-          src="/images/impact-bg.svg"
-          alt="Abstract data visualisation wallpaper with pound sterling symbols"
+          src="https://images.pexels.com/photos/669622/pexels-photo-669622.jpeg?auto=compress&cs=tinysrgb&w=1920"
+          alt="Business growth and financial success metrics"
           className="absolute inset-0 h-full w-full object-cover -z-20"
           loading="lazy"
         />
-        <div className="absolute inset-0 bg-bg/85 -z-10" aria-hidden="true" />
+        <div className="absolute inset-0 bg-white/80 backdrop-blur-sm -z-10" aria-hidden="true" />
 
         <div className="mx-auto max-w-7xl px-6 lg:px-8 relative">
           <div className="text-center mb-12">
@@ -374,8 +374,8 @@ export default function Home() {
             {/* Before */}
             <div className="rounded-xl bg-panel border border-border p-8 overflow-hidden">
               <img
-                src="/images/before-operations.svg"
-                alt="Cluttered filing room representing life without De-Graft"
+                src="https://images.pexels.com/photos/6186808/pexels-photo-6186808.jpeg?auto=compress&cs=tinysrgb&w=800"
+                alt="Cluttered paperwork and manual processes"
                 className="-mx-8 -mt-8 mb-6 h-48 w-full object-cover"
                 loading="lazy"
               />
@@ -406,8 +406,8 @@ export default function Home() {
             {/* After */}
             <div className="rounded-xl bg-gradient-to-br from-brand/10 to-brand/5 border border-brand/20 p-8 overflow-hidden">
               <img
-                src="/images/after-operations.svg"
-                alt="Modern operations centre representing De-Graft"
+                src="https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=800"
+                alt="Modern digital workspace with team collaboration"
                 className="-mx-8 -mt-8 mb-6 h-48 w-full object-cover"
                 loading="lazy"
               />
@@ -475,8 +475,8 @@ export default function Home() {
         primaryText="Book a Demo"
         secondaryText="Contact Sales"
         secondaryHref="/contact"
-        backgroundImageSrc="/images/cta-meeting.svg"
-        backgroundImageAlt="Business meeting illustration for the book a demo call to action"
+        backgroundImageSrc="https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=1920"
+        backgroundImageAlt="Professional business meeting and consultation"
       />
     </div>
   );

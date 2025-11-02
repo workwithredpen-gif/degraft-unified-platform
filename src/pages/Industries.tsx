@@ -12,8 +12,8 @@ const industries = [
     results: "52% reduction in audit preparation time, 100% compliance adherence, and fraud losses cut by 78%.",
     modules: "Property Management, Asset Management",
     color: "brand",
-    imageSrc: "/images/industry-banks.svg",
-    imageAlt: "Illustration of British bank infrastructure",
+    imageSrc: "https://images.pexels.com/photos/259200/pexels-photo-259200.jpeg?auto=compress&cs=tinysrgb&w=800",
+    imageAlt: "Modern banking and financial institution",
   },
   {
     icon: Radio,
@@ -23,8 +23,8 @@ const industries = [
     results: "99.8% network uptime, 35% lower maintenance costs, and 60% faster fault resolution.",
     modules: "Asset Management, Property Management",
     color: "accent-blue",
-    imageSrc: "/images/industry-telecoms.svg",
-    imageAlt: "Illustration of telecom towers with maintenance overlays",
+    imageSrc: "https://images.pexels.com/photos/2881229/pexels-photo-2881229.jpeg?auto=compress&cs=tinysrgb&w=800",
+    imageAlt: "Telecommunications infrastructure and towers",
   },
   {
     icon: Landmark,
@@ -34,8 +34,8 @@ const industries = [
     results: "47% OPEX savings, 64% waste diversion rates, and full transparency for stakeholders.",
     modules: "Property Management, Waste Management, Asset Management",
     color: "accent-gold",
-    imageSrc: "/images/industry-municipal.svg",
-    imageAlt: "Illustration of UK municipal sustainability operations",
+    imageSrc: "https://images.pexels.com/photos/1647962/pexels-photo-1647962.jpeg?auto=compress&cs=tinysrgb&w=800",
+    imageAlt: "Municipal government and public services",
   },
 ];
 
@@ -46,8 +46,8 @@ export default function Industries() {
         {/* Header */}
         <div className="relative overflow-hidden rounded-3xl mb-16">
           <img
-            src="/images/industries-hero.svg"
-            alt="Collage of British public services for banks, telecoms, and councils"
+            src="https://images.pexels.com/photos/3182765/pexels-photo-3182765.jpeg?auto=compress&cs=tinysrgb&w=1920"
+            alt="Diverse industries and business sectors"
             className="absolute inset-0 h-full w-full object-cover -z-20"
             loading="lazy"
           />
@@ -138,8 +138,8 @@ export default function Industries() {
         {/* Bottom Info */}
         <div className="mt-20 text-center rounded-2xl bg-secondary/50 p-8 md:p-12 relative overflow-hidden">
           <img
-            src="/images/industry-municipal.svg"
-            alt="Illustration covering additional industries served"
+            src="https://images.pexels.com/photos/3182796/pexels-photo-3182796.jpeg?auto=compress&cs=tinysrgb&w=1920"
+            alt="Additional business sectors and industries"
             className="absolute inset-0 h-full w-full object-cover -z-20"
             loading="lazy"
           />
@@ -168,8 +168,8 @@ export default function Industries() {
         primaryText="Book a Demo"
         secondaryText="View Solutions"
         secondaryHref="/solutions"
-        backgroundImageSrc="/images/industries-hero.svg"
-        backgroundImageAlt="Collage of British industries partnering with De-Graft"
+        backgroundImageSrc="https://images.pexels.com/photos/3182765/pexels-photo-3182765.jpeg?auto=compress&cs=tinysrgb&w=1920"
+        backgroundImageAlt="Professional industries collaborating for success"
       />
     </div>
   );

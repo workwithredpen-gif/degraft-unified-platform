@@ -9,8 +9,8 @@ const solutions = [
     description: "Manage your entire property portfolio from a single platform. Track leases, compliance, work orders, and vendor performance.",
     href: "/solutions/property-management",
     color: "brand",
-    imageSrc: "/images/solution-property.svg",
-    imageAlt: "Illustration of property managers overseeing British estates",
+    imageSrc: "https://images.pexels.com/photos/323705/pexels-photo-323705.jpeg?auto=compress&cs=tinysrgb&w=800",
+    imageAlt: "Modern commercial property building",
   },
   {
     icon: Package,
@@ -18,8 +18,8 @@ const solutions = [
     description: "Complete asset lifecycle tracking with preventive maintenance, IoT integration, and detailed cost analytics.",
     href: "/solutions/asset-management",
     color: "accent-blue",
-    imageSrc: "/images/solution-asset.svg",
-    imageAlt: "Illustration of engineers servicing telecom equipment",
+    imageSrc: "https://images.pexels.com/photos/2881232/pexels-photo-2881232.jpeg?auto=compress&cs=tinysrgb&w=800",
+    imageAlt: "Technician maintaining industrial equipment",
   },
   {
     icon: Recycle,
@@ -27,8 +27,8 @@ const solutions = [
     description: "Optimize waste operations with stream tracking, route planning, and automated ESG reporting for sustainability goals.",
     href: "/solutions/waste-management",
     color: "accent-gold",
-    imageSrc: "/images/solution-waste.svg",
-    imageAlt: "Illustration of a smart UK recycling facility",
+    imageSrc: "https://images.pexels.com/photos/3735218/pexels-photo-3735218.jpeg?auto=compress&cs=tinysrgb&w=800",
+    imageAlt: "Sustainable waste recycling facility",
   },
 ];
 
@@ -39,8 +39,8 @@ export default function Solutions() {
         {/* Header */}
         <div className="relative overflow-hidden rounded-3xl mb-16">
         <img
-          src="/images/solutions-hero.svg"
-          alt="Operations managers reviewing dashboards in a smart office"
+          src="https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&w=1920"
+          alt="Team analyzing solutions on digital screens"
           className="absolute inset-0 h-full w-full object-cover -z-20"
           loading="lazy"
         />
@@ -96,8 +96,8 @@ export default function Solutions() {
         {/* Bottom CTA */}
         <div className="mt-20 text-center rounded-2xl bg-secondary/50 p-8 md:p-12 relative overflow-hidden">
           <img
-            src="/images/cta-meeting.svg"
-            alt="Conversational meeting illustration"
+            src="https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=1920"
+            alt="Collaborative business consultation"
             className="absolute inset-0 h-full w-full object-cover -z-20"
             loading="lazy"
           />

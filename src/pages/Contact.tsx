@@ -42,8 +42,8 @@ export default function Contact() {
         {/* Header */}
         <div className="relative overflow-hidden rounded-3xl mb-16">
           <img
-            src="/images/contact-hero.svg"
-            alt="Customer success specialist on a video call with London skyline"
+            src="https://images.pexels.com/photos/3769021/pexels-photo-3769021.jpeg?auto=compress&cs=tinysrgb&w=1920"
+            alt="Professional customer service representative on video call"
             className="absolute inset-0 h-full w-full object-cover -z-20"
             loading="lazy"
           />
@@ -61,8 +61,8 @@ export default function Contact() {
           {/* Contact Info */}
           <div>
             <img
-              src="/images/cta-meeting.svg"
-              alt="De-Graft team hosting a consultation"
+              src="https://images.pexels.com/photos/3184339/pexels-photo-3184339.jpeg?auto=compress&cs=tinysrgb&w=800"
+              alt="Business consultation and team discussion"
               className="mb-8 w-full rounded-2xl object-cover shadow-lg"
               loading="lazy"
             />
