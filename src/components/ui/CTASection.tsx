@@ -31,7 +31,7 @@ export function CTASection({
           className={cn(
             "relative overflow-hidden rounded-2xl p-8 md:p-12 text-center",
             backgroundImageSrc
-              ? "bg-brand/95"
+              ? ""
               : "bg-gradient-to-br from-brand to-brand-700"
           )}
         >
@@ -43,16 +43,22 @@ export function CTASection({
                 className="absolute inset-0 h-full w-full object-cover -z-20"
                 loading="lazy"
               />
-              <div className="absolute inset-0 bg-brand/80 mix-blend-multiply -z-10" aria-hidden="true" />
+              <div className="absolute inset-0 bg-slate-900/70 -z-10" aria-hidden="true" />
             </>
           )}
 
           <div className="relative">
-            <h2 className="text-3xl md:text-4xl font-bold text-brand-foreground mb-4">
+            <h2 className={cn(
+              "text-3xl md:text-4xl font-bold mb-4",
+              backgroundImageSrc ? "text-white" : "text-brand-foreground"
+            )}>
               {title}
             </h2>
             {description && (
-              <p className="text-lg text-brand-foreground/90 mb-8 max-w-2xl mx-auto">
+              <p className={cn(
+                "text-lg mb-8 max-w-2xl mx-auto",
+                backgroundImageSrc ? "text-white/90" : "text-brand-foreground/90"
+              )}>
                 {description}
               </p>
             )}
@@ -61,7 +67,11 @@ export function CTASection({
                 asChild
                 size="lg"
                 variant="secondary"
-                className="bg-panel text-brand hover:bg-panel/90"
+                className={cn(
+                  backgroundImageSrc
+                    ? "bg-white text-slate-900 hover:bg-white/90"
+                    : "bg-panel text-brand hover:bg-panel/90"
+                )}
               >
                 <Link to={primaryHref}>
                   {primaryText}
@@ -73,7 +83,11 @@ export function CTASection({
                   asChild
                   size="lg"
                   variant="outline"
-                  className="border-brand-foreground/30 text-brand-foreground hover:bg-brand-foreground/10"
+                  className={cn(
+                    backgroundImageSrc
+                      ? "border-white/30 text-white hover:bg-white/10"
+                      : "border-brand-foreground/30 text-brand-foreground hover:bg-brand-foreground/10"
+                  )}
                 >
                   <Link to={secondaryHref}>{secondaryText}</Link>
                 </Button>

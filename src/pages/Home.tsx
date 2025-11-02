@@ -156,7 +156,7 @@ export default function Home() {
           className="absolute inset-0 h-full w-full object-cover -z-20"
           loading="eager"
         />
-        <div className="absolute inset-0 bg-gradient-to-br from-bg/95 via-brand/60 to-bg/80 -z-10" />
+        <div className="absolute inset-0 bg-gradient-to-br from-slate-900/75 via-slate-900/50 to-transparent -z-10" />
 
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
     <div className="grid lg:grid-cols-2 gap-12 items-center">
@@ -287,7 +287,7 @@ export default function Home() {
           className="absolute inset-0 h-full w-full object-cover -z-20"
           loading="lazy"
         />
-        <div className="absolute inset-0 bg-secondary/20 backdrop-blur-sm -z-30" aria-hidden="true" />
+        <div className="absolute inset-0 bg-white/90 backdrop-blur-md -z-10" aria-hidden="true" />
 
         <div className="mx-auto max-w-7xl px-6 lg:px-8 relative">
           <div className="text-center mb-12">
@@ -305,8 +305,8 @@ export default function Home() {
                 onClick={() => setActiveTab(tab.id as typeof activeTab)}
                 className={`px-6 py-3 rounded-lg font-medium transition-all ${
                   activeTab === tab.id
-                    ? "bg-brand text-brand-foreground"
-                    : "bg-panel text-muted hover:bg-panel/80"
+                    ? "bg-brand text-brand-foreground shadow-md border-2 border-brand"
+                    : "bg-white/80 backdrop-blur-sm text-muted hover:bg-white/90"
                 }`}
               >
                 {tab.label}
@@ -347,7 +347,7 @@ export default function Home() {
           className="absolute inset-0 h-full w-full object-cover -z-20"
           loading="lazy"
         />
-        <div className="absolute inset-0 bg-bg/85 -z-10" aria-hidden="true" />
+        <div className="absolute inset-0 bg-white/80 backdrop-blur-sm -z-10" aria-hidden="true" />
 
         <div className="mx-auto max-w-7xl px-6 lg:px-8 relative">
           <div className="text-center mb-12">
